@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.CSS">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="img/I-tology_logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+           window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<title id="logo">I-TOLOGY</title> 
+</head>
+<body>
+
+  <div class="frsthead">
+
+  <header>
+      <div class="frsthead">
+    <a href="#logo" class="logo">I-TOLOGY</a>
+  </div>
+    <div class="frsthead">
+
+      <ul>
+        <li><a href="#SECOND">Why I-TOLOGY </a>
+        <li><a href="#THIRD">Service</a>
+        <li><a href="#FOURTH">Products</a>
+        <li><a href="#LAST">Reach I-TOLOGY</a>
+       </ul>
+    </div>
+  </header>
+  </div>
+  
+ 
+  <div class="container">
+    <div class="frsthead">
+      <video autoplay muted loop class="vid" id="videoBG">   
+      <source src="pic/smart city background.mp4" type="video/mp4" >
+    </video>
+  </div>
+
+     <h3><b>Welcome To I-TOLOGY </h3>
+     <p class="p1"><p1><b>where every probleme has a solution <br></p1><br>
+      <button class="btn" onclick="document.location='#FIRST'">Learn More</button>
+  <div class="frsthead">
+
+  <section class="banner"></section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", this.window.scrollY > 0)
+    })
+    // Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+  </script>
+  </div>
+</div>
+</div>
+<br>
+  <div id="grad2">
+    <div class="first" id="FIRST">    
+        <h1></h1>
+        <h1></h1>
+        <h1 style="color:#02238a;">Who Are We  ?</h1>
+        <img src="pic/Good team-bro.png" alt="IT" class="photo">
+
+        <p>
+          It all started with 3 friends working in different companies under the same domain and ambition of<br> 
+          building an IT company Doing it the right way, providing reliable, efficient, and high quality  <br> 
+          solutions to all types of businesses unlike  many other companies around the country.<br>
+          In a very short period of time, we became successful because we have pioneered technology <br>
+          solutions to solve real-world business challenges and by gaining the trust and loyalty of many<br> 
+          clients due  to excellent service and friendship. It’s all about thinking outside the column <br>
+          when you work with us, where we make  the impossible possible providing solutions you didn't even <br> 
+          think existed
+        </p>
+    </div>
+    <div class="first" id="SECOND">
+        <h1></h1>
+        <h1></h1>
+        <h1 style="color:#02238a;">Why Us?</h1>
+            <h2 class="panel"><li style="color:#387dff">A QUALITY APPROACH</li></h2>
+            <p>
+              When it comes to data protection, our solutions meet the needs
+              of companies with even <br> the most sensitive and demanding
+              requirements for data privacy and confidentiality.
+            </p>
+    
+            <img src="pic/Metrics-bro.png" alt="IT" class="photo">
+    
+            <h2 class="panel"><li style="color:#387dff">OUR VISION</li></h2>
+            <p>
+            -Customers come first. Customer satisfaction is the ultimate
+            sign of success.<br>
+            <br>
+             -Life is too short to not enjoy your job. Enthusiasm is contagious
+            … let’s spread the positive vibes!<br>
+            <br>
+             -Transparency, sincerity and respect are the keys to trust 
+            -based collaboration.<br>
+            <br>
+            - People progress thanks to sharing and openness. Technology
+             does, too.<br>
+            </p>
+            <h2 class="panel"><li style="color:#387dff">OUR GOAL</li></h2>
+            <p>Empowering people through technology</p>
+            <h2 class="panel"><li  style="color:#387dff">AN EXCEPTIONAL RELATIONSHIP</li></h2>
+            <p>As I-Tology client, you become more than just a customer
+              – you become a long-term partner in innovation.
+              <br>
+              Your specific needs and feedback directly shape our future
+              and help us innovate with meaning</p>
+      </ul>
+    </div>
+    <br>
+    <div class="first" id="THIRD">
+      <h1></h1>
+      <h1></h1>
+      <h1 style="color:#02238a;">Services</h1>
+      <br>
+      <div class="tbl">
+      <div class="flex-container">
+          <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <br>
+              <br>
+              <img src="pic/network.png" alt="network-logo" style="width:75px;height:75px;">
+            </div>
+            <div class="flip-box-back">
+              <h2>network</h2>
+            </div>
+          </div>
+        </div>
+            <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <br>
+              <br>
+              <img src="pic/Cctv.png" alt="cctv-logo" style="width:75px;height:75px;">
+            </div>
+            <div class="flip-box-back">
+              <h2>cctv</h2>
+            </div>
+          </div>
+        </div>
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <br>
+              <br>
+              <img src="pic/computer.png" alt="computer maintenance" style="width:75px;height:75px;">
+            </div>
+            <div class="flip-box-back">
+              <h2>computer maintenance</h2>
+            </div>
+          </div>
+        </div>
+          
+              <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <br>
+              <br>
+              <img src="pic/bitcoin.png" alt="Crypto_mining" style="width:75px;height:75px;">
+            </div>
+            <div class="flip-box-back">
+              <h2>Crypto mining</h2>
+            </div>
+          </div>
+        </div>
+            
+          
+          <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <br>
+          <br>
+          <img src="pic/backup.png" alt="Data_backup_and_restoration" style="width:75px;height:75px;">
+        </div>
+        <div class="flip-box-back">
+          <h2>data backup and restoration</h2>
+        </div>
+      </div>
+    </div>
+            <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <br>
+              <img src="pic/processor.png" alt="electronics_maintenance" style="width:120px;height:125px;">
+            </div>
+            <div class="flip-box-back">
+              <h2>electronics maintenance</h2>
+            </div>
+          </div>
+        </div>
+        </tr>
+                <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <br>
+                <br>
+                <img src="pic/phone-call-box.png" alt="ip-telephones voip" style="width:100px;height:100px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>IP telephones voip</h2>
+              </div>
+            </div>
+          </div>
+            <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <br>
+                <br>
+                <img src="pic/it_support.png" alt="it_support" style="width:75px;height:75px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>IT support</h2>
+              </div>
+            </div>
+          </div>
+            <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <br>
+                <br>
+                <img src="pic/nas.png" alt="NAS_storage" style="width:75px;height:75px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>NAS STORAGE</h2>
+              </div>
+            </div>
+          </div>
+            <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="pic/it consultancy.png" alt="it consultancy" style="width:100px;height:100px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>IT consultancy</h2>
+              </div>
+            </div>
+          </div>
+            <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <br>
+                <br>
+                <img src="pic/add.png" alt="It_products_selling" style="width:75px;height:75px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>It products selling</h2>
+              </div>
+            </div>
+          </div>
+        
+              <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <br>
+                <br>
+                <img src="pic/pc.png" alt="Pc_building-" style="width:75px;height:75px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>PC building</h2>
+              </div>
+            </div>
+          </div>
+          
+          <tr>
+              <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <br>
+                <br>
+                <img src="pic/pos-terminal.png" alt="pos" style="width:75px;height:75px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>POS</h2>
+              </div>
+            </div>
+          </div>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <br>
+                  <br>
+                  <img src="pic/print.png" alt="Printing_it_services" style="width:75px;height:75px;">
+                </div>
+                <div class="flip-box-back">
+                  <h2>Printing IT services</h2>
+                </div>
+              </div>
+            </div>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <br>
+                    <br>
+                    <img src="pic/hacker.png" alt="remote support" style="width:75px;height:75px;">
+                  </div>
+                  <div class="flip-box-back">
+                    <h2>remonte support</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <br>
+                    <br>
+                    <img src="pic/download.png" alt="installition and configuration" style="width:75px;height:75px;">
+                  </div>
+                  <div class="flip-box-back">
+                    <h2>installition & configuration</h2>
+                  </div>
+                </div>
+              </div>
+          </tr>
+        </table>
+      </div>
+      </div>
+    </div>
+  
+    <div class="product" id="FOURTH">
+      <h1></h1>
+      <h1></h1>
+      <h1 style="color:#02238a;">Products</h1>
+      <p>We Provide Custom Parts for</p>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <div class="tbl">
+        <div class="flex-container">
+      <table>
+        <tr>
+          
+            <div class="card">
+                <i class="fa-solid fa-computer"></i>
+                <h4  style="color:#000">PCs</h4>
+              </div>
+          
+          
+            <div class="card">
+                <i class="	fas fa-laptop"></i>
+                <h4  style="color:#000">LAPTOPS</h4>
+              </div>
+          
+          
+            <div class="card">
+              <i class="material-icons">&#xe328;</i>
+              <h4  style="color:#000">ROUTER</h4>
+              </div>
+            <div class="card">
+                <i class="fab fa-usb"></i>
+                <h4  style="color:#000">CABLES</h4>
+              </div>
+            <div class="card">
+              <h4  style="color:#000" ><br><br><br>AND MANY MORE ON DEMAND</h4>
+              </div>
+        </tr>
+      </table>
+         </div>
+      </div>
+    </div>
+
+    <br><br><br>
+ 
+<div class="contact" >
+  <img class="te" src="pic/wave.png"style="min-width: auto;">
+
+  <div class="tara" >
+    <div class="center">
+      <h5 style="color:lightblue;"> For more information<br>you can contact upon our social media <br>pages,Email,whatsapp,or you can visit our company</h5>
+      <div class="container-images"><br>  <img  class="wow" src="pic/Mobile Marketing-bro.png" alt="IT">
+<div id="LAST">
+<div class="social">
+  <a href="https://instagram.com/itology.lb?igshid=YmMyMTA2M2Y="target="blank"><img src="pic/instagram.png" alt="ITOLOGY instagram"style="width:30px;height:30px"></a>
+  <a href="https://www.tiktok.com/@itology.lb?_t=8VJpOOUHISQ&_r=1"target="blank"><img src="pic/tik-tok.png" alt="itology tiktok"style="width:30px;height:30px"></a>
+  <a href="https://wa.me/96176096641"target="blank"><img src="pic/whatsapp.png" alt="itology whatsapp"alt="itology whatsapp"style="width:30px;height:30px"></a>
+  <a href="https://goo.gl/maps/5egbWj8by6uaPdg57"target="blank"><img src="pic/location.png" alt="itology location"style="width:30px;height:30px"></a>
+  <a href="Support@i-tology.com"target="blank"><img src="pic/gmail.png" alt="itology email"style="width:30px;height:30px"></a>
+  <a href="tel:+05890000111" target="_blank"><img src="pic/phone-call.png" alt="itology email"style="width:30px;height:30px"></a></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+</html>
