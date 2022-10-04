@@ -276,6 +276,7 @@ h3 {
 
 .social{
   margin-top: 3.5rem;
+  padding: 10px;
 }
 .social img{
 margin-right: 2rem;
@@ -311,7 +312,6 @@ transition: 0.5s;
   width:300px;
   height:300px;
 }
-
 @media screen and (max-width:480px) {
   html,body{
     width: 100%;
@@ -319,6 +319,9 @@ transition: 0.5s;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+  }
+  .center{
+    margin-left: -30px;
   }
   header{
     position: fixed;
@@ -462,10 +465,10 @@ transition: 0.5s;
   }
   .photo{
     position: center;
-      width:auto;
-      height: 200px;
+    width:auto;
+    height: 200px;
     }
-    h5{
+  h5{
       position: relative;
     }
     .wow{
@@ -484,6 +487,10 @@ transition: 0.5s;
     .bg{
       position: center;    
     } 
+    .social{
+      margin-top: 3.5rem;
+      padding: top 20px;  ;
+    }
   }
 @media screen  and (max-width:900px) and (min-width:481px) {
   html,body{
