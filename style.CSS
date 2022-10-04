@@ -12,7 +12,7 @@ body{
     min-height: 200vh;
     }
 .responsive-iframe {
-      position: absolute;
+    position: absolute;
       top: 0;
       left: 0;
       bottom: 0;
@@ -29,6 +29,9 @@ img{
 .scndhead{
   visibility: hidden;
 }
+.thrdhead{
+  visibility: visible;
+}
 header{
   position: fixed;
   top: 0;
@@ -43,7 +46,7 @@ header{
 
 }
 header.sticky{
-  padding: 5px 100px;
+  padding: 5px ;
   background: #387dff;
 }
 
@@ -55,7 +58,7 @@ header .logo{
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  transition: 0.6s;
+  transition: 1s;
 }
 header ul{
   position: relative;
@@ -69,7 +72,7 @@ header ul li{
 }
 header ul li a{
   position: relative;
-  margin: 0 15px;
+  margin: 0 5px;
   text-decoration: none;
   color: #387DFF;
   letter-spacing: 2px;
@@ -155,7 +158,7 @@ h1{
 .container .btn {
   position: absolute;
   top: 70%;
-  left: 22%;
+  left: 28%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #fff;
@@ -184,8 +187,8 @@ h3 {
   color: #000;
   width: 1000px;
   position: absolute;
-  top: 60%;
-  left: -9%;
+  top: 55%;
+  left: -6%;
   color: white;
   font-size: 25px;
   margin-bottom: -10;
@@ -317,6 +320,53 @@ transition: 0.5s;
     padding: 0;
     overflow-x: hidden;
   }
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 50px;
+    z-index: 100000;
+  
+  }
+  header.sticky{
+    padding: 2px 40px;
+    background: #387dff;
+  }
+  
+  header .logo{
+    position: relative;
+    font-weight: 100;
+    color: #387DFF;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+  }
+  header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header ul li{
+    position: relative;
+    list-style: none;
+  }
+  header ul li a{
+    position: relative;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #387DFF;
+    letter-spacing: 1px;
+    font-weight: 100px;
+    transition: 0.6s;
+  }
   .te{
     margin-top: -1%;
   }
@@ -332,11 +382,11 @@ transition: 0.5s;
   }
   h3{
   position: center;  
-  padding-left: 6%;
+  padding-left: 9% ;
   color: blue;
   }
   .tbl {
-    left: 50px;
+    left: 5%;
   }
   .tarra{
     padding-left: -5rem;
@@ -357,7 +407,7 @@ transition: 0.5s;
   }
   p1{
     font-size: medium;
-    left: -100px;
+    left: -50%;
   }
   .panel{
     margin-left: 60px;
@@ -366,7 +416,7 @@ transition: 0.5s;
   .container .btn {
     position: absolute;
     top: 70%;
-    left: 200px;
+    left: 210px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #387DFF;
@@ -374,7 +424,7 @@ transition: 0.5s;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
-    cursor: pointer;
+    cursor: grab;
     border-radius: 40px;
     text-align: center;
   }
@@ -404,6 +454,9 @@ transition: 0.5s;
   .scndhead{
       visibility: visible;
     }
+  .thrdhead{
+      visibility: hidden;
+    }
   .center {
     margin-left: 30px;
   }
@@ -413,7 +466,7 @@ transition: 0.5s;
       height: 200px;
     }
     h5{
-      margin-left: -95%;
+      position: relative;
     }
     .wow{
       margin-left: -70%;
@@ -429,8 +482,9 @@ transition: 0.5s;
       padding-left: -13%;
     }
     .bg{
-      position: center;    }
-}
+      position: center;    
+    } 
+  }
 @media screen  and (max-width:900px) and (min-width:481px) {
   html,body{
     width: 100%;
@@ -439,6 +493,10 @@ transition: 0.5s;
     padding: 0;
     overflow-x: hidden;
   }
-
-
+  .thrdhead{
+    visibility: hidden;
+  }
+  .p1{
+    left: -13%;
+  }
 }
