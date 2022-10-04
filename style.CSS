@@ -157,7 +157,6 @@ h1{
 }
 .container .btn {
   position: absolute;
-  top: 70%;
   left: 28%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
