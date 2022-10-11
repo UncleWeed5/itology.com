@@ -1,16 +1,18 @@
 html,body{
   scroll-behavior: smooth;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins' , sans-serif;
+    font-family: 'mon' , sans-serif;
   }
 body{
     background-color: #fff;
     min-height: 200vh;
-    }
+   }
+
 .responsive-iframe {
     position: absolute;
       top: 0;
@@ -95,6 +97,9 @@ header.sticky .logo:hover,
 header.sticky ul li a:hover{
   color: darkblue;
 }
+.midlle{
+  padding: 30px;
+}
 .contact{
   min-height: 50vh;
   background-color:#387DFF;
@@ -154,6 +159,9 @@ h1{
   height: auto;
   background-image: url("Metrics-bro.png");
 
+}
+.container-images{
+  padding-left: 10%;
 }
 .container .btn {
   position: absolute;
@@ -275,7 +283,7 @@ h3 {
 
 .social{
   margin-top: 3.5rem;
-  padding: 10px;
+  padding: 20px;
 }
 .social img{
 margin-right: 2rem;
@@ -471,10 +479,13 @@ transition: 0.5s;
       position: relative;
     }
     .wow{
-      margin-left: -70%;
-      width: 150px;
-      height:150px;
+      margin-left: -85%;
+      width: 200px;
+      height:200px;
     }
+    .container-images{
+      padding: -15%;
+    }  
     .icon{
     width:15px;
     height:15px;
