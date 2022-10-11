@@ -327,10 +327,6 @@ transition: 0.5s;
   padding: 10%;
   margin-top: -100px;
 }
-.h8{
- margin-top: -20px;
-}
-
 @media screen and (max-width:480px) {
   .lop {
     flex-direction: column;
