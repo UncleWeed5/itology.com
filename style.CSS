@@ -327,6 +327,8 @@ transition: 0.5s;
   padding: 10%;
   margin-top: -100px;
 }
+
+
 @media screen and (max-width:480px) {
   .lop {
     flex-direction: column;
@@ -508,8 +510,7 @@ transition: 0.5s;
       position: center;    
     } 
     .social{
-      margin-top: 3.5rem;
-      padding: top 20px;  ;
+      padding-top: 10px;  ;
     }
   }
 @media screen  and (max-width:900px) and (min-width:481px) {
