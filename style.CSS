@@ -101,6 +101,7 @@ header.sticky ul li a:hover{
   padding: 30px;
 }
 .contact{
+ margin-top:-500px;
   min-height: 50vh;
   background-color:#387DFF;
  }
@@ -327,8 +328,19 @@ transition: 0.5s;
   padding: 10%;
   margin-top: -100px;
 }
-
-
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 50% !important;
+}
 @media screen and (max-width:480px) {
   .lop {
     flex-direction: column;
